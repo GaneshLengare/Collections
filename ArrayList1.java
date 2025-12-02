@@ -31,8 +31,16 @@ public class  ArrayList1{
 
         System.out.println(list.size());//2
 
-        list.clear();//removes all list elements
+        //list.clear();//removes all list elements
         System.out.println(list);//[]
+
+        ArrayList<String> list1 = new ArrayList<>();
+        list1.add("Mithi");
+        list1.add("Wankhede");
+
+        list.addAll(list1);
+        System.out.println(list);
+
 
             
     }
